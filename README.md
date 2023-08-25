@@ -59,16 +59,8 @@ These colors can be referenced and used throughout the website to ensure a cohes
 
 The design system provides a set of buttons with predefined styles. These buttons can be used consistently across the site. The available button styles include:
 
-<div class="button-container">  
-      <div class="button-panel">
-      <div>
-        <div class="button">
-          <button  class="primary">
-             <span class="button-title-primary">Get Started</span>
-           </button>
-           <button class="secondary">
-             <span class="button-title-secondary">Learn More</span>
-            </button>
+- Primary Button
+- Secondary Button
 
 To use these buttons, apply the corresponding CSS classes or styles to your HTML elements.
 
