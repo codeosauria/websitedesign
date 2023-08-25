@@ -96,6 +96,3 @@ Customize the footer to align with your website's branding and add relevant link
 
 Feel free to explore the code in this repository to understand and utilize the web design or design system for your own website.
 
-For any questions or issues, please contact [Your Name] at [Your Email Address].
-
-You can modify
