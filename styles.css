@@ -39,8 +39,7 @@ html {
 
 section{
     margin: 0 10%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 30px;
+    scroll-margin-top: 50px;
 }
   header {
     position: fixed;
@@ -86,6 +85,11 @@ section{
     font-family: 'Poppins', sans-serif;
   }
   
+  .nav-item:hover {
+    background-color: #CDB7F9;
+    padding: 5px;
+   }
+   
   .nav-link {
     color: #ffffff;
     text-decoration: none;
@@ -108,21 +112,23 @@ section{
     border: none;
     cursor: pointer;
   }
+  .search-bar button:hover {
+    background-color: #CDB7F9;
+  }
 
   .wireframe-container{
     padding-top: 100px
 }
   .header {
-    padding-top: 20px;
-    padding: 10px 70px;
+    padding: 10px 60px;
     flex-direction: column;
     height: auto;
-    font-family: Roboto,'Work Sans', sans-serif;;
+    font-family:  'Poppins', sans-serif;
     text-align: center;
     background-color: hsla(260, 78%, 75%, 0.36);
     color: white;
     font-size: 30px;
-    border-radius: 30px;
+    border-radius: auto;
   }
 
   .colors-container {
@@ -146,7 +152,6 @@ section{
     flex-wrap: wrap;
     justify-content: center;
   }
-  
   .color-panel {
     width: 150px;
     text-align: center;
@@ -157,29 +162,33 @@ section{
   
   .bright-lavender {
     background-color: #AC8BF1;
-    color: #000;
+    color: #fff;
     border-radius: 20;
   }
   
   .soap {
     background-color: #CDB7F9;
-    color: #000;
+    color: #fff;
   }
   
   .magnolia {
     background-color: #F2ECFF;
+    color:#2B233C;
   }
   
   .medium-purple {
     background-color: #8F66E4;
+    color: #fff
   }
 
   .slate-blue {
     background-color: #7244D0;
+    color: #fff;
   }
 
   .dark-pastelpurple {
     background-color: #977AD3;
+    color: #fff;
   }
   .dark-lavender {
     background-color: #6C5797;
@@ -197,10 +206,71 @@ section{
     background-color: #2B233C;
     color: #fff;
   }
+
+  .bright-lavender:hover {
+    transform: translate(-7px, 7px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.426);
+    transition: transform 0.1s ease-in-out;
+  }
   
+  .soap:hover {
+    transform: translate(-7px, 7px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.426);
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .magnolia:hover {
+    transform: translate(-7px, 7px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.426);
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .medium-purple:hover {
+    transform: translate(-7px, 7px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.426);
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .slate-blue:hover {
+    transform: translate(-7px, 7px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.426);
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .dark-pastelpurple:hover {
+    transform: translate(-7px, 7px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.426);
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .dark-lavender:hover {
+    transform: translate(-7px, 7px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.426);
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .jacarta:hover {
+    transform: translate(-7px, 7px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.426);
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .chinese-black:hover {
+    transform: translate(-7px, 7px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.426);
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .dark-purple:hover {
+    transform: translate(-7px, 7px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.426);
+    transition: transform 0.1s ease-in-out;
+  }
+
   .font-panel {
-    width: 45%;
-    display: inline-block;
+    width: 50%;
+    margin-left: 30px;
+    display: inline-flexbox;
   }
 
   .font-label {
@@ -232,7 +302,7 @@ section{
     font-family: 'Poppins', sans-serif;
   }
   .text-panel{
-   padding-left: 20px;
+   padding-left: 30px;
   }
   .text-panel h1 {
     font-weight: 700;
@@ -242,9 +312,9 @@ section{
   }
   
   .text-panel h2 {
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 18px;
-    text-align: left;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
   }
   
@@ -252,9 +322,10 @@ section{
     font-weight: 400;
     font-size: 14px;
     color: #41345A;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
-    padding-left: 20px;
   }
+
   .button {
     display:flex;
     justify-content: center;
